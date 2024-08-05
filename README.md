@@ -49,6 +49,8 @@ PROTECTION 1 // anti VM / disable IF YOU USE IN ON VM !!!
 in main file you need to configure 2 think 
 - shellcode URL | line 49
 - XOR key use same key for encryption !!! | line 59
+  
+*The `encrypt.py` file is included in the project. You can use it to encrypt your shellcode before uploading it.*
 
 ### demo / exemple 
 
@@ -62,7 +64,7 @@ Debug mode
 ```
 
 
-https://github.com/Vasco0x4/ShadeLoader/assets/63432221/abb22b64-c835-4ddc-8bb0-4b2abe450ca5
+[Debug mode ](https://github.com/Vasco0x4/ShadeLoader/assets/63432221/abb22b64-c835-4ddc-8bb0-4b2abe450ca5)
 
 
 
@@ -78,10 +80,7 @@ Anti VM
 #define PROTECTION 1 
 
 ```
-
-
-
-https://github.com/Vasco0x4/ShadeLoader/assets/63432221/a5c6a2ed-88d5-4114-9224-e77d3869e294
+[Anti VM](https://github.com/Vasco0x4/ShadeLoader/assets/63432221/a5c6a2ed-88d5-4114-9224-e77d3869e294)
 
 
 
@@ -97,7 +96,7 @@ Silent
 ```
 
 
-https://github.com/Vasco0x4/ShadeLoader/assets/63432221/4f167e13-8dd0-4b68-b8c3-76923f6df320
+[Silent](https://github.com/Vasco0x4/ShadeLoader/assets/63432221/4f167e13-8dd0-4b68-b8c3-76923f6df320)
 
 
 
@@ -108,9 +107,6 @@ ________________________________________________________________________________
 ### ShadeLoader vs AVs 2/40
 
 https://kleenscan.com/scan_result/e116638a3bac264968b2a86f32e6a24db53f7f27335810caba68233ca5771e4d
-
-### encrypt.py
-also includes a encrypt.py file to encrypt the shellcode before downloading. You can use it to prepare your shellcode before deployment.
 
 ### Disclaimer
 This project is for educational purposes only. Any malicious use of this code is strictly prohibited
